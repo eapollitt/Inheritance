@@ -47,7 +47,7 @@ class CD(SavingsAccount):
     
     def __init__(self, account_num, int_rate, bal, mat_date):
         # Call the superclass __init__ method.
-        SavingsAccount.__init__(self, account_num, int_rate, bal)
+        SavingsAccount.__init__(self, account_num, int_rate, bal) #creating the superclass
 
         # Initialize the __maturity_date attribute.
         self.__maturity_date = mat_date
